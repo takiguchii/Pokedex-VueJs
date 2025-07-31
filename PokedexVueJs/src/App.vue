@@ -6,9 +6,9 @@ import Footer from './components/FooterComponent.vue'
 <template>
   <div class="flex flex-col min-h-screen bg-gray-100">
     <Navbar />
-    <div class="main container mx-auto px-4 py-6">
+    <div class="main container mx-auto px-4 py-6 flex-1">
       <router-view></router-view>
     </div>
-    <Footer />
+    <Footer class="mt-auto" />
   </div>
 </template>

@@ -8,8 +8,6 @@
 
 <script setup>
     defineProps({
-        pokemon: Object
-        
-        
+        pokemon: Object      
     })
 </script>
