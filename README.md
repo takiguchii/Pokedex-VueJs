@@ -2,8 +2,8 @@
 
 Uma Pokedex moderna desenvolvida utilizando Vue.js e integração com a PokeAPI.
 
-![Tela Principal](PokedexVueJs/src/img/home.png)
-![Detalhes do Pokemon](PokedexVueJs/src/img/details.png)
+![Tela Principal](PokedexVueJs/src/img/img1.png)
+![Detalhes do Pokemon](PokedexVueJs/src/img/img3.png)
 
 ## Características
 
@@ -70,33 +70,3 @@ PokedexVueJs/
 - Sistema de busca
 - Filtro por tipos de Pokemon
 
-## Screenshots
-
-### Página Inicial
-![Página Inicial](PokedexVueJs/src/img/home.png)
-
-### Detalhes do Pokemon
-![Detalhes](PokedexVueJs/src/img/details.png)
-
-### Visualização Mobile
-![Mobile](PokedexVueJs/src/img/mobile.png)
-
-## Contribuição
-
-Contribuições são sempre bem-vindas! Para contribuir:
-
-1. Faça um Fork do projeto
-2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a Branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-## Contato
-
-Seu Nome - [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
-
-Link do Projeto: [https://github.com/seu-usuario/Pokedex-VueJs](https://github.com/seu-usuario/Pokedex-VueJs)
