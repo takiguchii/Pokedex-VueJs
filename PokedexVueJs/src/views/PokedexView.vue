@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="text-3xl font-bold text-center mb-6 mt-6">Pokemons</h1>
+        <h1 class="text-3xl font-bold text-center mb-6 mt-6">POKEMONS</h1>
 
         <div class="flex justify-center mb-6">
             <input
