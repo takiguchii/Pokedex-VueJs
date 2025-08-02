@@ -1,36 +1,48 @@
 <template>
-  <RadarChart :data="chartData" />
+    <Radar :data="chartData" :options="chartOptions" />
 </template>
 
-<script>
-import { RadarChart } from 'vue-chartjs'
+<script setup>
+import { Radar } from 'vue-chartjs'
 import {
-  Chart as ChartJS,
-  Filler,
-  Legend,
-  LineElement,
-  PointElement,
-  RadialLinearScale,
-  Tooltip
+    Chart as ChartJS,
+    Title,
+    Tooltip,
+    Legend,
+    RadialLinearScale,
+    PointElement,
+    LineElement,
+    Filler
 } from 'chart.js'
 
 ChartJS.register(
-  Filler,
-  Legend,
-  LineElement,
-  PointElement,
-  RadialLinearScale,
-  Tooltip
+    Title,
+    Tooltip,
+    Legend,
+    RadialLinearScale,
+    PointElement,
+    LineElement,
+    Filler
 )
 
-export default {
-  name: 'PokemonRadarChart',
-  components: { RadarChart },
-  props: {
+defineProps({
     chartData: {
-      type: Object,
-      required: true
+        type: Object,
+        required: true
     }
-  }
+})
+
+const chartOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    scales: {
+        r: {
+            angleLines: {
+                display: true
+            },
+            suggestedMin: 0,
+            suggestedMax: 100
+        }
+    }
 }
 </script>
